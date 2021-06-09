@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>  
+    <meta charset="UTF-8">
+    <title>Weather Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='navigation'>
+      <nav class="navbar">
+      <a class="navbar-brand" href="index.html">Weather Data</a>
+      <button class="navbar-toggler" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul>
+          <li>
+            <div>
+              
+           </div>
+         </li>
+         <li>
+          <a href="data.html">Data</a>
+         </li>
+         <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="comparisons.html">Compare</a>
+        </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container1 col-md-7">
+        <div class="col-md-12">
+          <h1 class="display-4">Latitude and Weather</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+              <img width="300px" src="data_images/Lat_max temp.png"></image>
+          </div>
+          <div class="col_md-1">
+            <p >This project was completed with the intention of discovering how latitude affects different aspects of the weather.
+              The data was retreived from the OpenWeatherMap API on June 7th 2021, and includes 1000 cities.
+            </p>
+          </div>
+        </div>
+      <p>
+        The data was visualized using MatPlotLib to better illustrate the associations of different aspects of weather as they relate to latitude.
+        The visualized elements are wind speed, maximum temperature, cloudiness, and humidity. This site illustrates and examines the results of the presented data.
+      </p>
+    </div>
+    <div class="container2 col-md-3">
+      <div class="col-md-12">
+        <h1 class="display-4">Plots</h1>
+      <div class="row">
+        <div class="col-md-6">
+            <a href="max_temp.html">
+            <img src="data_images/Lat_max temp.png" width="150px" ></image>
+        </div>
+        <div class="col-md-6">
+          <a href="humidity.html">
+          <img src="data_images/Lat_Humidity.png" width="150px"></image>
+        </div>
+        <div class="col-md-6">
+          <a href="cloudiness.html">
+          <img src="data_images/Lat_Cloudiness.png" width="150px"></image>
+        </div>
+        <div class="col-md-6">
+          <a href="wind.html">
+          <img src="data_images/Lat_Wind Speed.png" width="150px"></image>
+        </div>
+      </div>
+
+    </div>
+
+  
+
+</body>
+</html>
